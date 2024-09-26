@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 2024-09-26.png](https://github.com/tomwinskell/product-preview-card-component/Screenshot 2024-09-26.png)
+![Screenshot 2024-09-26.png](https://raw.githubusercontent.com/tomwinskell/product-preview-card-component/refs/heads/main/Screenshot%202024-09-26.png)
 
 ### Links
 
