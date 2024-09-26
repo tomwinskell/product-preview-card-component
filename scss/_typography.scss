@@ -1,0 +1,80 @@
+// fonts
+@mixin font-heading {
+  font-family: 'Fraunces', serif;
+}
+
+@mixin font-body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+// font weights
+@mixin bold {
+  font-weight: 700;
+}
+
+@mixin medium {
+  font-weight: 500;
+}
+
+// base typography
+@mixin base-typography {
+  font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, span, a, li, input, textarea, button {
+  @include base-typography;
+}
+
+// line height
+@mixin line-height-1 {
+  line-height: 1;
+}
+
+@mixin line-height-1_5 {
+  line-height: 1.5;
+}
+
+// letter spacing
+@mixin letter-spacing-0 {
+  letter-spacing: 0;
+}
+
+// heading 1
+@mixin font-heading1-bold {
+  /* Heading 1/Bold */
+  @include font-heading;
+  @include base-typography;
+  @include bold;
+  font-size: 2rem;
+  @include line-height-1;
+  @include letter-spacing-0;
+}
+
+// paragraph
+@mixin font-paragraph-medium {
+/* Paragraph/Medium */
+  @include font-body;
+  @include base-typography;
+  @include medium;
+  font-size: 0.875rem;
+  @include line-height-1_5;
+  @include letter-spacing-0;
+  }
+
+@mixin font-paragraph-small {
+/* Paragraph/Small */
+  @include font-body;
+  @include base-typography;
+  @include medium;
+  @include line-height-1;
+  @include letter-spacing-0;
+  }
+
+@mixin font-button-bold {
+  /* Button/Bold */
+  @include font-body;
+  @include base-typography;
+  @include bold;
+  font-size: 0.875rem;
+  @include letter-spacing-0;
+}

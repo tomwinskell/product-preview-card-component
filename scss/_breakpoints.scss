@@ -1,0 +1,37 @@
+// breakpoints and card dimensions
+$breakpoints: (
+  'desktop': 50em
+);
+
+$card: (
+  'desktop': (
+    'width': 600px,
+    'height': 450px,
+    'padding-around': 32px,
+    'padding-between': 24px
+  ),
+  'mobile': (
+    'width': 343px,
+    'height': 611px,
+    'image-height': 240px,
+    'padding-around': 24px,
+    'padding-between': 16px
+  )
+);
+
+// Function to access breakpoint values
+@function breakpoint($point) {
+  @return map-get($breakpoints, $point);
+}
+
+// Function to access card dimension values
+@function card-dimension($device, $property) {
+  @return map-get(map-get($card, $device), $property);
+}
+
+// Mixin for media queries
+@mixin breakpoint($point) {
+  @media (min-width: breakpoint($point)) {
+    @content;
+  }
+}
