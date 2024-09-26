@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![/Screenshot 2024-09-26.png](/Screenshot 2024-09-26.png)
+![Screenshot 2024-09-26.png](https://github.com/tomwinskell/product-preview-card-component/Screenshot 2024-09-26.png)
 
 ### Links
 
-- Solution URL: [https://gitbut.com/tomwinskell/product-preview-card-component](https://gitbut.com/tomwinskell/product-preview-card-component)
-- Live Site URL: [https://tomwinskell.github.io/product-preview-card-component](https://gitbut.com/tomwinskell/product-preview-card-component)
+- Solution URL: [https://github.com/tomwinskell/product-preview-card-component](https://github.com/tomwinskell/product-preview-card-component)
+- Live Site URL: [https://tomwinskell.github.io/product-preview-card-component](https://tomwinskell.github.io/product-preview-card-component)
 
 ## My process
 
