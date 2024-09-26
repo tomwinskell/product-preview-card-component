@@ -45,9 +45,10 @@ Users should be able to:
 
 ### What I learned
 
-- ##SCSS and SASS##. There is still a lot to learn. Some features are helpful in writing re-usable / organized CSS.
-- ##Self-hosting Google Fonts##. Will continue to use this for future projects.
-- ##Cursor##. It is helpful to code with LLM because I can ask questions and complete repetive tasks quicker. I do have to be mindful using this tool because AI will auto-complete code incorrectly at times. For me, coding still requires a human.
+- SCSS and SASS. There is still a lot to learn. Some features are helpful in writing re-usable / organized CSS.
+- Self-hosting Google Fonts. Will continue to use this for future projects.
+- Cursor. It is helpful to code with LLM because I can ask questions and complete repetive tasks quicker. I do have to be mindful using this tool because AI will auto-complete code incorrectly at times. For me, coding still requires a human.
+- I also accidentally deleted my project and had to use git to restor it. Doh!
 
 ## Acknowledgments
 
