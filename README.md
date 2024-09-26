@@ -38,10 +38,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- [https://sass-lang.com/](SASS)
+- [SASS](https://sass-lang.com/)
 - Mobile-first workflow
-- [https://gwfh.mranftl.com/fonts](Google Web Fonts Helper - self-hosting of Google Fonts)
-- [https://www.cursor.com/](Cursor)
+- [Google Web Fonts Helper - self-hosting of Google Fonts](https://gwfh.mranftl.com/fonts)
+- [Cursor](https://www.cursor.com/)
 
 ### What I learned
 
